@@ -1,0 +1,49 @@
+body {
+    background-color: #e7faff;
+    }
+
+#quiz-form {
+    max-width: 1500px;
+    background-color: #fffffff7;
+    border: solid;
+    border-color: #498fa2;
+    border-radius: 10px; 
+    padding: 25px;
+    }
+
+.question-item {
+    margin-bottom: 40px;
+    }
+
+.answer-item {
+    margin-bottom: 5px;
+    }
+
+button {
+    background-color: #3cc1c8;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    }
+
+#alert {
+    display: none; /*/ permet de cacher le message de "congratulations" /*/
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #f8bec2;
+    color: #9b0c0c;
+    }
+
+#alert.correct {
+        background-color: #a8f6ac;
+        color: green;
+      }
+    
+.correct-answer {
+        color: green;
+      }
+      
+.wrong-answer {
+        color: red;
+      }
+      
